@@ -1,0 +1,7 @@
+{
+  "name": "APP-JONY",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
