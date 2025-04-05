@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "641616927402",
+    "project_id": "tabs-decastro-apps",
+    "storage_bucket": "tabs-decastro-apps.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641616927402:android:b5e582a53be807dc4cced3",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoj1EmQA9NqogkvvseicP3eWeq7Uz4z4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
