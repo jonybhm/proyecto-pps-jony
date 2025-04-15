@@ -11,11 +11,12 @@ import { getAuth, provideAuth } from '@angular/fire/auth';
 import { getFirestore, provideFirestore } from '@angular/fire/firestore';
 import { getStorage, provideStorage } from '@angular/fire/storage';
 import { environment } from 'src/environments/environment';
+import { SplashPage } from './splash/splash.page';
 
 
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, SplashPage],
   imports: [    BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }, 
       provideFirebaseApp(() => initializeApp(environment.firebaseConfig)), 
